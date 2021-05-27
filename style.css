@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header {
+    width: 1440px;
+    height: 70px;
+    margin-bottom: 38px;
+    background: rgba(196, 196, 196, 0.75);
+    padding: 11px 11px 11px 215px;
+    position: relative;
+}
+
+.logo {
+    font-size: 40px;
+    line-height: 48px;
+    display: inline-block;
+}
+
+.input {
+    padding-top: 12px;
+    display: inline-block;
+    width: 295px;
+    height: 45px;
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: white;
+    background-image: url("pictures/ellipse.svg");
+    background-repeat: no-repeat;
+    background-position: center left 5%;
+    background-size: auto 50%;
+    position: absolute;
+    left: 945px;
+    top: 15px;
+}
+
+.input-search {
+    width: 175px;
+    height: 21px;
+    font-size: 14px;
+    border: none;
+}
+
+.picture {
+    float: left;
+    margin-right: 71px;
+}
+
+.picture:first-child {
+    margin-left: 215px;
+}
+
+.picture:last-child {
+    margin-right: 0px;
+}
+
+.wrapper-picture {
+    width: 294px;
+    height: 301px;
+    position: relative;
+}
+
+.text-picture {
+    width: 295px;
+    height: 145px;
+    padding-left: 16.56px;
+}
+
+.text-title {
+    font-size: 24px;
+    line-height: 120%;
+    color: #3a3a3a;
+    margin-top: 16px;
+    display: block;
+    font-weight: 600;
+}
+
+.text-name {
+    font-size: 16px;
+    color: #898989;
+    display: block;
+    margin-top: 8px;
+}
+
+.text-prise {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3a3a3a;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.text-old-prise {
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration-line: line-through;
+    color: #b0b0b0;
+    margin-left: 16px;
+}
+
+.last {
+    background-image: url("pictures/picture3.jpg");
+    position: relative;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background: rgba(200, 164, 164, 0.55);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.new {
+    width: 48px;
+    height: 48px;
+    background-color: #2ec1ac;
+    top: 24px;
+    right: 33px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.sale {
+    width: 49.68px;
+    height: 48px;
+    background-color: #e97171;
+    top: 24px;
+    right: 24px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
